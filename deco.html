@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+        integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/deco.css">
+    <link rel="shortcut icon" href="img/logo.ico">
+    <title>米築</title>
+</head>
+
+<body>
+    <!-- header start -->
+    <div>
+        <div class="header">
+            <h1 class="logo">
+                <a href="index.html"><img src="img/logo.svg" alt=""></a>
+                <span>米築</span>
+            </h1>
+            <div class="big-icon">
+                <a href="https://www.facebook.com/maisonbest/" target="_blank"><i
+                        class="fab fa-facebook-square"></i></a>
+                <a href="https://lin.ee/n9vcOPz" target="_blank"><i class="fab fa-line"></i></a>
+                <a href="https://www.instagram.com/maisonbesttw/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="search">
+                <input type="text" class="searchTerm" placeholder="Search">
+                <button type="submit" class="searchButton"><i class="fa fa-search"></i></button>
+            </div>
+            <input type="checkbox" name="" id="menu-switch">
+            <label for="menu-switch" class="menu-control">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <nav class="main-nav">
+                <a href="news.html">
+                    <div class="menu_item">
+                        <h4>地產動態</h4>
+                        <span>NEWS</span>
+                    </div>
+                </a>
+                <a href="case.html">
+                    <div class="menu_item">
+                        <h4>新案訊息</h4>
+                        <span>CASE</span>
+                    </div>
+                </a>
+                <a href="deco.html">
+                    <div class="menu_item">
+                        <h4>生活美學</h4>
+                        <span>DECO</span>
+                    </div>
+                </a>
+                <a href="people.html">
+                    <div class="menu_item">
+                        <h4>人物觀點</h4>
+                        <span>PEOPLE</span>
+                    </div>
+                </a>
+                <a href="interior.html">
+                    <div class="menu_item">
+                        <h4>室內設計</h4>
+                        <span>INTERIOR</span>
+                    </div>
+                </a>
+                <a href="ebook.html">
+                    <div class="menu_item">
+                        <h4>電子書</h4>
+                        <span>EBOOK</span>
+                    </div>
+                </a>
+                <a href="about.html">
+                    <div class="menu_item">
+                        <h4>關於米築</h4>
+                        <span>ABOUT</span>
+                    </div>
+                </a>
+            </nav>
+        </div>
+    </div>
+    <!-- header end -->
+    <!-- 輪播 -->
+    <section class="title_carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="pages.html">
+                        <img class="d-block car_width" src="fake/car.jpg" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="pages.html">
+                        <img class="d-block car_width" src="fake/car.jpg" alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="pages.html">
+                        <img class="d-block car_width" src="fake/car.jpg" alt="Third slide">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"
+                style="z-index: 3;">
+                <span>‹</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"
+                style="z-index: 3;">
+                <span>›</span>
+            </a>
+        </div>
+    </section>
+    <!-- 方格排版 -->
+    <div class="container">
+        <div class="row deco_title">
+            <div class="title_row">
+                <img src="img/deco.svg" alt="">
+                <h2>生活美學</h2>
+                <span>DECO</span>
+            </div>
+        </div>
+    </div>
+    <section class="deco_page ">
+        <div class="row deco_grid">
+            <div class="deco_2rows">
+                <div class="deco_item">
+                    <a href="pages.html">
+                        <div class="deco_picBox">
+                            <img src="fake/deco1.jpg" alt="">
+                            <div class="picBox_text">
+                                <h4>標題標題標題標題標題</h4>
+                                <div class="title_time">
+                                    <i class="far fa-clock"></i>
+                                    <time datatime="2020-08-03">2020.8.3</time>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="deco_item">
+                    <a href="pages.html">
+                        <div class="deco_picBox">
+                            <img src="fake/deco2.jpg" alt="">
+                            <div class="picBox_text">
+                                <h4>標題標題標題標題標題</h4>
+                                <div class="title_time">
+                                    <i class="far fa-clock"></i>
+                                    <time datatime="2020-08-03">2020.8.3</time>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="deco_3rows">
+                <div class="deco_item">
+                    <a href="pages.html">
+                        <div class="deco_picBox">
+                            <img src="fake/deco01.jpg" alt="">
+                            <div class="picBox_text">
+                                <h4>標題標題標題標題標題</h4>
+                                <div class="title_time">
+                                    <i class="far fa-clock"></i>
+                                    <time datatime="2020-08-03">2020.8.3</time>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="deco_item">
+                    <a href="pages.html">
+                        <div class="deco_picBox">
+                            <img src="fake/deco02.jpg" alt="">
+                            <div class="picBox_text">
+                                <h4>標題標題標題標題標題</h4>
+                                <div class="title_time">
+                                    <i class="far fa-clock"></i>
+                                    <time datatime="2020-08-03">2020.8.3</time>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="deco_item">
+                    <a href="pages.html">
+                        <div class="deco_picBox">
+                            <img src="fake/deco03.jpg" alt="">
+                            <div class="picBox_text">
+                                <h4>標題標題標題標題標題</h4>
+                                <div class="title_time">
+                                    <i class="far fa-clock"></i>
+                                    <time datatime="2020-08-03">2020.8.3</time>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="deco_2rows">
+                <div class="deco_item">
+                    <a href="pages.html">
+                        <div class="deco_picBox">
+                            <img src="fake/deco02.jpg" alt="">
+                            <div class="picBox_text">
+                                <h4>標題標題標題標題標題</h4>
+                                <div class="title_time">
+                                    <i class="far fa-clock"></i>
+                                    <time datatime="2020-08-03">2020.8.3</time>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="deco_item">
+                    <a href="pages.html">
+                        <div class="deco_picBox">
+                            <img src="fake/deco01.jpg" alt="">
+                            <div class="picBox_text">
+                                <h4>標題標題標題標題標題</h4>
+                                <div class="title_time">
+                                    <i class="far fa-clock"></i>
+                                    <time datatime="2020-08-03">2020.8.3</time>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="deco_3rows">
+                <div class="deco_item">
+                    <a href="pages.html">
+                        <div class="deco_picBox">
+                            <img src="fake/deco3.jpg" alt="">
+                            <div class="picBox_text">
+                                <h4>標題標題標題標題標題</h4>
+                                <div class="title_time">
+                                    <i class="far fa-clock"></i>
+                                    <time datatime="2020-08-03">2020.8.3</time>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="deco_item">
+                    <a href="pages.html">
+                        <div class="deco_picBox">
+                            <img src="fake/index01.jpg" alt="">
+                            <div class="picBox_text">
+                                <h4>標題標題標題標題標題</h4>
+                                <div class="title_time">
+                                    <i class="far fa-clock"></i>
+                                    <time datatime="2020-08-03">2020.8.3</time>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="deco_item">
+                    <a href="pages.html">
+                        <div class="deco_picBox">
+                            <img src="fake/car.jpg" alt="">
+                            <div class="picBox_text">
+                                <h4>標題標題標題標題標題</h4>
+                                <div class="title_time">
+                                    <i class="far fa-clock"></i>
+                                    <time datatime="2020-08-03">2020.8.3</time>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="deco_content">
+        <div class="container margin-bottom">
+            <div class="row">
+                <div class="col-xs-12 col-md-9">
+                    <a href="pages.html">
+                        <div class="deco_conItem">
+                            <div class="col-12 col-md-6 deco_picBox">
+                                <img src="fake/deco1.jpg" alt="">
+                            </div>
+                            <div class="col-12 col-md-6 textBox">
+                                <h3>《Jazz It Up！最easy的漫畫爵士樂入門》/ 南武成</h3>
+                                <div class="title_time">
+                                    <i class="far fa-clock"></i>
+                                    <time datatime="2020-08-03">2020.8.3</time>
+                                </div>
+                                <p>想知道聞名天下的Miles Davis是如何在Dizzy Gillespie與Charlie
+                                    Parker兩位咆勃大師的引導下、逐漸發展出專屬於自己的風格？想了解喜歡在旋律間大量留白、獨樹一格的鋼琴家Thelonious
+                                    Monk私底下的行為舉止有多古怪嗎？而目中無人、卻又有著無與倫比天分的貝斯手Jaco Pastorius是如何笑傲爵士樂的江湖呢？</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="pages.html">
+                        <div class="deco_conItem">
+                            <div class="col-12 col-md-6 deco_picBox"><img src="fake/deco2.jpg" alt=""></div>
+                            <div class="col-12 col-md-6 textBox">
+                                <h3>澤緣建設 | 職人建築團隊 實踐新生活美學</h3>
+                                <div class="title_time">
+                                    <i class="far fa-clock"></i>
+                                    <time datatime="2020-08-03">2020.8.3</time>
+                                </div>
+                                <p>一樣重大注意對手行動軟體大學生下了把握，做出一本也可外面慢慢團體密碼收到跟着參加人力好像引進不需要，像素最佳服飾庫存暫無太麻里熱線資本倒是宜蘭上傳組圖，網域名稱高效對付調整經理損失哪個服裝刺激，此外。
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="pages.html">
+                        <div class="deco_conItem">
+                            <div class="col-12 col-md-6 deco_picBox"><img src="fake/deco3.jpg" alt=""></div>
+                            <div class="col-12 col-md-6 textBox">
+                                <h3>澤緣建設 | 職人建築團隊 實踐新生活美學</h3>
+                                <div class="title_time">
+                                    <i class="far fa-clock"></i>
+                                    <time datatime="2020-08-03">2020.8.3</time>
+                                </div>
+                                <p>不承擔我這獲得市場參考家庭感染聯繫方式報導國產體制，意大利看到，難道敵人，不停採訪，即使能在責任編。</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="pages.html">
+                        <div class="deco_conItem">
+                            <div class="col-12 col-md-6 deco_picBox"><img src="fake/deco1.jpg" alt=""></div>
+                            <div class="col-12 col-md-6 textBox">
+                                <h3>澤緣建設 | 職人建築團隊 實踐新生活美學</h3>
+                                <div class="title_time">
+                                    <i class="far fa-clock"></i>
+                                    <time datatime="2020-08-03">2020.8.3</time>
+                                </div>
+                                <p>不承擔我這獲得市場參考家庭感染聯繫方式報導國產體制，意大利看到，難道敵人，不停採訪，即使能在責任編。</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="pages.html">
+                        <div class="deco_conItem">
+                            <div class="col-12 col-md-6 deco_picBox"><img src="fake/deco2.jpg" alt=""></div>
+                            <div class="col-12 col-md-6 textBox">
+                                <h3>澤緣建設 | 職人建築團隊 實踐新生活美學</h3>
+                                <div class="title_time">
+                                    <i class="far fa-clock"></i>
+                                    <time datatime="2020-08-03">2020.8.3</time>
+                                </div>
+                                <p>不承擔我這獲得市場參考家庭感染聯繫方式報導國產體制，意大利看到，難道敵人，不停採訪，即使能在責任編。</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="pages.html">
+                        <div class="deco_conItem">
+                            <div class="col-12 col-md-6 deco_picBox"><img src="fake/people01.jpg" alt=""></div>
+                            <div class="col-12 col-md-6 textBox">
+                                <h3>澤緣建設 <br> 職人建築團隊 實踐新生活美學</h3>
+                                <div class="title_time">
+                                    <i class="far fa-clock"></i>
+                                    <time datatime="2020-08-03">2020.8.3</time>
+                                </div>
+                                <p>建築是會說故事的，靠近一點，還能夠感受它的溫度。澤緣建設藉由陽光、空氣與植栽的設計，發展出有溫度的建築。光線賦予了空間最原始的靈魂，藉由不同的開窗樣式、位置，營造出豐富的空間語境，走在澤緣建築的不同角落空間，感受不一樣的光線，讓空氣自由對流，展現出全新的生活情境。
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <div class="deco_bar">
+                        <div class="deco_barTitle">FOLLOW US</div>
+                        <div class="deco_barCon">
+                            <div class="icon">
+                                <a href="https://www.facebook.com/maisonbest/" target="_blank"><i
+                                        class="fab fa-facebook-square"></i></a>
+                                <a href="https://lin.ee/n9vcOPz" target="_blank"><i class="fab fa-line"></i></a>
+                                <a href="https://www.instagram.com/maisonbesttw/" target="_blank"><i
+                                        class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="deco_barTitle">TAG</div>
+                        <div class="deco_barCon">
+                            <a href="javascript:;">
+                                <div class="deco_tag">風格店鋪</div>
+                            </a>
+                            <a href="javascript:;">
+                                <div class="deco_tag">裝潢設計</div>
+                            </a>
+                            <a href="javascript:;">
+                                <div class="deco_tag">建材百科</div>
+                            </a>
+                            <a href="javascript:;">
+                                <div class="deco_tag">藝文專欄</div>
+                            </a>
+                            <a href="javascript:;">
+                                <div class="deco_tag">其他</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 更多文章 -->
+        <div class="phone">
+            <div class="row news_more">
+                <div class="container ">
+                    <div class="title_row">
+                        <h4>想看更多文章</h4>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <a href="pages.html">
+                                <div class="news_moreitem">
+                                    <img src="img/search.png" alt="">
+                                    <div>
+                                        <div class="news_itemTitle">標題標題標題標題標題標題標題標題</div>
+                                        <div class="title_time">
+                                            <i class="far fa-clock"></i>
+                                            <time datatime="2020-08-03">2020.8.3</time>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="pages.html">
+                                <div class="news_moreitem">
+                                    <img src="img/search.png" alt="">
+                                    <div>
+                                        <div class="news_itemTitle">標題標題標題標題標題題標題標題題標題標題標題標題標題</div>
+                                        <div class="title_time">
+                                            <i class="far fa-clock"></i>
+                                            <time datatime="2020-08-03">2020.8.3</time>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="pages.html">
+                                <div class="news_moreitem">
+                                    <img src="img/search.png" alt="">
+                                    <div>
+                                        <div class="news_itemTitle">標題標題標題標題標題標題標題標題</div>
+                                        <div class="title_time">
+                                            <i class="far fa-clock"></i>
+                                            <time datatime="2020-08-03">2020.8.3</time>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <a href="pages.html">
+                                <div class="news_moreitem">
+                                    <img src="img/search.png" alt="">
+                                    <div>
+                                        <div class="news_itemTitle">標題標題標題標題標題標題標題標題</div>
+                                        <div class="title_time">
+                                            <i class="far fa-clock"></i>
+                                            <time datatime="2020-08-03">2020.8.3</time>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="pages.html">
+                                <div class="news_moreitem">
+                                    <img src="img/search.png" alt="">
+                                    <div>
+                                        <div class="news_itemTitle">標題標題標題標題標題標題標題標題</div>
+                                        <div class="title_time">
+                                            <i class="far fa-clock"></i>
+                                            <time datatime="2020-08-03">2020.8.3</time>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="pages.html">
+                                <div class="news_moreitem">
+                                    <img src="img/search.png" alt="">
+                                    <div>
+                                        <div class="news_itemTitle">標題標題標題標題標題標題標題標題</div>
+                                        <div class="title_time">
+                                            <i class="far fa-clock"></i>
+                                            <time datatime="2020-08-03">2020.8.3</time>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 頁碼 -->
+        <div class="container">
+            <div class="row pageNumber">
+                <a href="javascript:;">
+                    <div class="pageNumber_box">&lt;</div>
+                </a>
+                <a href="javascript:;">
+                    <div class="pageNumber_box pageSelect">1</div>
+                </a>
+                <a href="javascript:;">
+                    <div class="pageNumber_box">2</div>
+                </a>
+                <a href="javascript:;">
+                    <div class="pageNumber_box">3</div>
+                </a>
+                <div class="pageNumber_box">...</div>
+                <a href="javascript:;">
+                    <div class="pageNumber_box">10</div>
+                </a>
+                <a href="javascript:;">
+                    <div class="pageNumber_box">&gt;</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer end & To Top-->
+    <a href="javascript:;">
+        <div class="backToTop">
+            <i class="fas fa-arrow-up"></i>
+        </div>
+    </a>
+    <!-- footer start -->
+    <footer>
+        <div class="menu row">
+            <a href="news.html">
+                <div class="menu_item">
+                    <img src="img/news-w.svg" alt="NEWS">
+                    <span>NEWS</span>
+                </div>
+            </a>
+            <a href="case.html">
+                <div class="menu_item">
+                    <img src="img/case-w.svg" alt="case">
+                    <span>CASE</span>
+                </div>
+            </a>
+            <a href="deco.html">
+                <div class="menu_item">
+                    <img src="img/deco-w.svg" alt="deco">
+                    <span>DECO</span>
+                </div>
+            </a>
+            <a href="people.html">
+                <div class="menu_item">
+                    <img src="img/people-w.svg" alt="people">
+                    <span>PEOPLE</span>
+                </div>
+            </a>
+            <a href="interior.html">
+                <div class="menu_item">
+                    <img src="img/interior-w.svg" alt="interior">
+                    <span>INTERIOR</span>
+                </div>
+            </a>
+            <a href="ebook.html">
+                <img src="img/ebook-w.svg" alt="ebook">
+                <div class="menu_item">
+                    <span>EBOOK</span>
+                </div>
+            </a>
+            <a href="about.html">
+                <img src="img/about.svg" alt="about">
+                <div class="menu_item">
+                    <span>ABOUT</span>
+                </div>
+            </a>
+        </div>
+        <div class="logo">
+            <img src="img/logo2.svg" alt="米築"></div>
+        <div class="row copyright">
+            <p class="col-12 col-md-6">米築株式會社 版權所有 不得轉載</p>
+            <p class="col-12 col-md-6">© 2020 MAISON. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <!-- footer end & To Top-->
+
+    <!--javascript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="js/common.js"></script>
+</body>
+
+</html>
